@@ -33,6 +33,10 @@ public class BrowserStack_Practice {
 		driver.get("https://facebook.com");
 		driver.manage().window().maximize();
 		System.out.println(driver.getTitle());
+		System.out.println(driver.getTitle());
+		System.out.println(driver.getTitle());
+		System.out.println(driver.getTitle());
+		
 		
 		
 	}
