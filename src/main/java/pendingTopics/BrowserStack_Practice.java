@@ -21,6 +21,9 @@ public class BrowserStack_Practice {
 		browserOptions.setCapability("platformName", "Windows 11");
 	
 		/*browserOptions.setPlatformName("Windows 11");
+		
+		
+		
 		browserOptions.setBrowserVersion("latest");*/
 		Map<String, Object> sauceOptions = new HashMap<String, Object>();
 		sauceOptions.put("username", "oauth-sivakumar.g1991-1b43b");
