@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test name="Test(failed)">
+    <groups>
+      <run>
+        <exclude name="SmokeTest"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="pom.testcases.TC003">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="tc003"/>
+        </methods>
+      </class> <!-- pom.testcases.TC003 -->
+      <class name="pom.testcases.TC002">
+        <methods>
+          <include name="tc002"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- pom.testcases.TC002 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
